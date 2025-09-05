@@ -57,10 +57,10 @@
         height: fit-content;
       }
     #first-section{
-        height: 600px;
+        height: auto;
     }
     #main{
-        height: 100vh;
+        height: auto;
         display: grid;
         grid-template-columns: repeat(16, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -311,7 +311,7 @@ button{
     color: rgba(220, 20, 60, 0.895);
 }
 #about-me{
-    height: 850px;
+    height: auto;
     color: white;
     justify-content: center;
     align-items: center;
@@ -346,7 +346,7 @@ button{
     grid-row: 1;
     justify-self: center;
     align-self: center;
-    position: relative;
+    position: static;
 }
 #left{
     grid-column: 1/2;
@@ -354,12 +354,12 @@ button{
     justify-self: center;
     align-self: center;
     position: relative;
-    top: -150px;
+    top: -100px;
 
 }
 #col1{
     width: 20px;
-    height: 400px;
+    height: auto;
     border-radius: 10px;
     background-color: #0d0820;
     grid-column: 1/2;
@@ -368,7 +368,7 @@ button{
     align-self: center;
     float: left;
     position: relative;
-    left: -50px;
+    
     display: flex;
     flex-direction: column;
     transition: all .3s ease;   
@@ -445,7 +445,7 @@ button{
 
     #col2{
         width: 350px;
-        height: 400px;
+        height: auto;
         border-radius: 10px;
         background-color: #0d0820;
         grid-column: 2/3;
@@ -526,7 +526,7 @@ button{
 
      
 #second-section{
-    height: 800px;
+    height: auto;
     background-color: #0d0820;
 }
 .btn3{
@@ -667,7 +667,7 @@ button{
     height: auto;
     padding: 40px 20px;
     position: relative;
-    top: 200px;
+    
   }
 
   #right,
@@ -706,7 +706,6 @@ button{
     height: auto;
     position: relative;
     right: 0;
-    top: -200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -721,6 +720,9 @@ button{
     height: auto !important;
     min-height: auto !important;
     padding: 40px 0;
+  }
+  #col1{
+    display: none;
   }
 }
 
