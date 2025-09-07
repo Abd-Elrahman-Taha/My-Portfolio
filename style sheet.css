@@ -666,7 +666,7 @@ button{
     .btn1, .btn2 {
         width: 150px;
         height: 60px;
-        margin-left: 10px;
+        margin-left: 30px;
         display: block;
         font-size: 16px;
         text-align: center;
@@ -706,7 +706,9 @@ button{
     position: relative;
     
   }
-
+#about-me h1{
+    text-align: center;
+}
   #right,
   #left {
     width: 100%;
