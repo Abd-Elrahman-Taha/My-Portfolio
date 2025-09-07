@@ -4,7 +4,7 @@
   padding: 0;
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden; /* يمنع السكرول يمين */
+ 
 }
 
    #nav-brand{
@@ -310,7 +310,8 @@ button{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    position: absolute;
+    position: relative;
+    
     
 }
 #list li{
