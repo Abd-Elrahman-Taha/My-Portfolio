@@ -559,7 +559,12 @@ button{
 }
 /* 📱 الموبايل و التابلت */
 @media (max-width: 768px) {
-    /* الجزء الرئيسي */
+    *{
+        max-width: 100%;
+    }
+    html,body{
+    max-width: 100%;
+   }
 
     #nav-brand{
         font-size: 20px;
@@ -645,7 +650,7 @@ button{
     background-color: crimson;
     width: 75px;             /* يملأ الصفحة */
     margin: 0;   
-    margin-right: 5px;            /* من غير فراغ */
+    margin-right: 7px;            /* من غير فراغ */
     align-self: flex-start;
     position: relative;
     top: 25px;
