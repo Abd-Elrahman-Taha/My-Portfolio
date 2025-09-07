@@ -635,8 +635,9 @@ button{
     #hello {
         font-size: 26px;
         margin-top: 50px;
-        text-align: center;    
-        margin-left: 240px;
+        text-align: center;
+        justify-self: center;    
+        
     }
     #line {
         width: 100px;
@@ -644,7 +645,7 @@ button{
         margin: 10px ;
         position: relative;
         top: 25px;
-    margin-left: 80px;
+    justify-self: center;
 
     }
     #main h2 {
@@ -652,12 +653,14 @@ button{
         margin: 10px 0;
         position: static;
         text-align: center;
+        justify-self: center;
     }
     
     #web {
         font-size: 24px;
         position: relative;
         left: 0;
+        justify-self: center;
         top: -120px;
             
     }
