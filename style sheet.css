@@ -55,10 +55,9 @@
         width: 2px;
         height: 40px;
         background-color: crimson;
-        margin-left: 20px;
-        float: left;
-        top: 15px;    
+        margin-right: 600px;
         box-shadow: 0 0 20px crimson;
+        
     }    
     #line4{
         width: 2px;
