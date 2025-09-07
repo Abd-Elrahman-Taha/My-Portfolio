@@ -310,7 +310,7 @@ button{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    position: relative;
+    position: absolute;
     
     
 }
