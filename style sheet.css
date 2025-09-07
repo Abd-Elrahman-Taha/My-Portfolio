@@ -554,6 +554,20 @@ button{
         align-self: center;
 
     }
+    #navbarNav1{
+     margin-left: 10px;
+    
+    }
+    .navbar-nav a{
+        transition: all .3s ease;
+    }
+    .navbar-nav a:hover{
+        transform: scale(1.1);
+        color: rgba(220, 20, 60, 0.895);}
+    }
+    #line4{
+        display: none;
+    }
     #line3{
         height: 30px;
         position: relative; 
@@ -724,5 +738,4 @@ button{
   #col1{
     display: none;
   }
-}
 
