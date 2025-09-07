@@ -638,14 +638,14 @@ button{
         font-size: 26px;
         margin-top: 50px;
         text-align: center;
-        justify-self: center;    
+        justify-self: center;
+        margin-right: 150px;    
         
-            
+
     }
     #line {
         width: 100px;
         height: 2px;
-        
         margin-right: 0px;
         position: relative;
         top: 25px;
@@ -654,7 +654,8 @@ button{
     }
     #main h2 {
         font-size: 20px;
-        margin: 10px ;
+        margin-top: 10px;
+        margin-left: 0px;
         position: static;
         text-align: center;
     
