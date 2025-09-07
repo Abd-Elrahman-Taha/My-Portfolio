@@ -643,7 +643,7 @@ button{
     #line {
     height: 2px;
     background-color: crimson;
-    width: 75px;             /* يملأ الصفحة */
+    width: 70px;             /* يملأ الصفحة */
     margin: 0;               /* من غير فراغ */
     align-self: flex-start;
     position: relative;
