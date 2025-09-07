@@ -596,25 +596,23 @@ button{
     }
 
     #main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        height: auto;
-        padding: 20px;
-    }
-
-    #right-main {
-        order: 2; /* النصوص تيجي الأول */
-        width: 100%;
-        margin-bottom: 20px;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+   
+  #right-main {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
 
     #left-main {
         order: 1; /* الصورة تيجي بعد النصوص */
@@ -634,55 +632,44 @@ button{
         top: 50px;
     }
 
-    #hello {
-        font-size: 26px;
-        margin-top: 50px;
-        text-align: center;
-        justify-self: center;
-        margin-right: 120px;    
-        
-
-    }
+   
+  #hello {
+    font-size: 28px;
+    margin: 0 auto;
+    text-align: center;
+    justify-self: center;
+    margin-top: 25px;
+  }
     #line {
-        width: 100px;
-        height: 2px;
-        margin-right: 0px;
-        margin-left: 20px;
-        position: relative;
-        top: 25px;
-    
-
-    }
-    #main h2 {
-        font-size: 20px;
-        margin-top: 10px;
-        margin-left: 15px;
-        position: static;
-        text-align: center;
-    
-    }
-    
-    #web {
-        font-size: 24px;
-        position: relative;
-        top: -120px;
-        justify-self: center;
-        text-align: center;
-        margin-right: 170PX ;
-            
-    }
-
-    .btn1, .btn2 {
-        width: 150px;
-        height: 60px;
-        margin-left: 35px;
-        display: block;
-        font-size: 16px;
-        text-align: center;
-        position: relative;
-        top: -60px;
-        justify-self: center;
-    }
+    height: 2px;
+    background-color: crimson;
+    width: 100px;             /* يملأ الصفحة */
+    margin: 0;               /* من غير فراغ */
+    align-self: flex-start;
+    position: relative;
+    top: 25px;
+  }
+     #main h2 {
+    font-size: 22px;
+    margin: 10px auto;
+    text-align: center;
+    position: static;
+  }
+ #web {
+    font-size: 26px;
+    margin: 15px auto;
+    text-align: center;
+    position: static;
+    margin-top: -2px;
+}
+ .btn1, .btn2 {
+    width: 160px;
+    height: 55px;
+    margin: 10px auto;
+    font-size: 16px;
+    position: static;
+    display: block;
+  }
 
     #line2 {
         display: none; /* الخط اللي في النص بيبوظ في الموبايل */
