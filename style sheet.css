@@ -728,6 +728,7 @@ button{
     position: static;
     font-size: 14px;
     text-align: center;
+    margin-top: -50px;
   }
 
   #about-me table h2 {
