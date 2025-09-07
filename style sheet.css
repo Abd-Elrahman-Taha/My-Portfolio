@@ -560,11 +560,12 @@ button{
     }
     .navbar-nav a{
         transition: all .3s ease;
+        margin-left: 25px;
     }
-    .navbar-nav a:hover{
-        transform: scale(1.1);
-        color: rgba(220, 20, 60, 0.895);}
-    }
+   
+
+
+    
     #line4{
         display: none;
     }
@@ -739,3 +740,4 @@ button{
     display: none;
   }
 
+}
