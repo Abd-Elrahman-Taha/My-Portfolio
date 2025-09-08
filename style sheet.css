@@ -866,12 +866,7 @@ button{
   #col1{
     display: none;
   }
-  #para2 h2{
-    text-align: center;
-    }
-    #para2 p{
-        text-align: center;
-    }
+ 
     #third-section{
         display: flex;
         flex-direction: column;
