@@ -774,7 +774,9 @@ button{
     #line2 {
         display: none; /* الخط اللي في النص بيبوظ في الموبايل */
     }
-
+    #nav{
+        height: max-content;
+    }
     #list {
         flex-wrap: wrap;
         justify-content: center;
