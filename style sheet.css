@@ -934,4 +934,8 @@ button{
     
 
   }
+    #social-icons a {
+    width: 30%;   /* كل أيقونة تاخد تلت العرض تقريبا */
+    margin: 15px 0;
+  }
 }
