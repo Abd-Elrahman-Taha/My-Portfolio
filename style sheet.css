@@ -874,11 +874,19 @@ button{
         align-items: center;
         text-align: center;
     }
+    #project-buttons{
+        margin-left: 15px;
+    }
+    #para2{
+        margin-left: 15px;
+    }
     #conatain1{
         order: 1;
     }
     #para3{
+        margin-left: 15px;
         order: 2;
+        
     }
     #line9,#line10{
         display: none;

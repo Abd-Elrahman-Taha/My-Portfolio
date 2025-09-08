@@ -26,8 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  // نجيب كل سكاشن البروجكتس
-  const projectSections = document.querySelectorAll(".third-section");
+  const allCols = document.querySelectorAll("section#third-section .col-lg-6, section#third-section .col-md-6, section#third-section .col-sm-12");
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -35,15 +34,21 @@ document.addEventListener("DOMContentLoaded", () => {
         const el = entry.target;
         el.classList.add("animate__animated", el.dataset.animation);
         el.style.opacity = 1;
-        observer.unobserve(el); 
+        observer.unobserve(el);
       }
     });
   }, { threshold: 0.2 });
 
-  projectSections.forEach((section, index) => {
-    // الزوجي يدخل من اليمين - الفردي من الشمال
-    const animation = index % 2 === 0 ? "animate__fadeInRight" : "animate__fadeInLeft";
-    section.dataset.animation = animation;
-    observer.observe(section);
+  allCols.forEach(col => {
+    // لو العمود جهة يمين (Bootstrap يديه order تلقائي)
+    const parentRow = col.parentElement; 
+    const isLeft = Array.from(parentRow.children).indexOf(col) === 0;
+
+    // لو أول عمود → يدخل من الشمال
+    // لو تاني عمود → يدخل من اليمين
+    col.dataset.animation = isLeft ? "animate__fadeInLeft" : "animate__fadeInRight";
+
+    col.style.opacity = 0;
+    observer.observe(col);
   });
 });
