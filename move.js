@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const el = entry.target;
         el.classList.add("animate__animated", el.dataset.animation);
         el.style.opacity = 1;
-        observer.unobserve(el); // run once
+        observer.unobserve(el); 
       }
     });
   }, { threshold: 0.2 });

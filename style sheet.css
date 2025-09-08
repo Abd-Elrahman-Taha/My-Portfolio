@@ -11,7 +11,7 @@
         font-size: 25px;
         font-weight: bold;
         margin-left: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Orbitron', sans-serif;
         color: white;
     }
     .navbar{
@@ -26,7 +26,7 @@
         text-decoration: none;
         text-shadow: 2px 2px 4px #000000;
         transition: all .5s ease;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-family: 'Orbitron', sans-serif;
         font-size: 20px;
         font-weight: bold;
         margin-right: 20px;
@@ -162,6 +162,7 @@
     padding: 0;
     align-self: end;
     justify-self: start;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient( to right, white 90%, crimson 10%);
     -webkit-background-clip: text;
@@ -315,11 +316,11 @@ button{
 }
 #list li{
     display: inline-block;
-    margin-right: 20px;
-    padding: 10px;
+    margin-right: 10px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     transition: all .5s ease;
     margin-left: 70px;
     padding-top: 15px;
@@ -346,7 +347,7 @@ button{
     font-size: 40px;
     font-weight: bold;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Orbitron', sans-serif;
     color: crimson;
 }
 #about-me h1,
@@ -565,7 +566,78 @@ button{
     color: white;
     border: 2px solid crimson;
 }
-/* 📱 الموبايل و التابلت */
+#third-section{
+    height: 100%;
+    position: relative;
+    top: -50px;
+}
+#third-section h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    color: crimson;
+    transition: all .3s ease;
+    margin-bottom: 50px;
+}
+
+#project-img{
+    border: 2px solid crimson;
+    box-shadow: 0 0 20px crimson;
+    border-radius: 10px;
+    height: 70% ;
+}
+#project-img img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#btn4{
+    background-color: crimson;
+    border: 1px solid crimson;
+    box-shadow: 0 0 20px crimson;
+    transition: all .3s ease  ;
+    margin-top: 15px;
+
+}
+#btn4:hover{
+      background-color: transparent;
+    transform: scale(1.1);
+    color: white;
+    border: 2px solid crimson;
+}
+#btn5{
+    background-color: transparent;
+    border: 1px solid crimson;
+    box-shadow: 0 0 20px crimson;
+    transition: all .3s ease  ;
+    margin-top: 15px;
+
+    
+}
+#btn5:hover{
+      background-color: crimson;
+    transform: scale(1.1);
+    color: white;
+    border: 2px solid crimson;
+}
+#btn4 a,#btn5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#para2 h2{
+     font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: crimson;
+    }
+    #para2 p{
+        color: white;
+        font-size: 20px;
+        width: 90%;
+    }
+
 @media (max-width: 768px) {
     *{
         max-width: 100%;
@@ -777,5 +849,11 @@ button{
   #col1{
     display: none;
   }
+  #para2 h2{
+    text-align: center;
+    }
+    #para2 p{
+        text-align: center;
+    }
 
 }
