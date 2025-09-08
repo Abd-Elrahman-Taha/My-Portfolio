@@ -234,9 +234,7 @@
 #pro-img img:hover{
     transform: scale(1.025);
 }
-#main a{
-    text-decoration: none;
-}
+
 button{
     width: 200px;
     height: 75px;
@@ -265,7 +263,7 @@ button{
     grid-column: 3/4;
     margin-left: -30px;
 }
-.btn2 a{
+.btn2 a ,.btn1 a{
     text-decoration: none;
     color: white;}
 .btn2:hover{
@@ -838,6 +836,7 @@ button{
   #left {
     width: 100%;
     margin: 20px 0;
+    margin-right: 10px;
     position: static;
     
   }
@@ -937,5 +936,6 @@ button{
     #social-icons a {
     width: 30%;   /* كل أيقونة تاخد تلت العرض تقريبا */
     margin: 15px 0;
+    margin-left: 5px;
   }
 }
