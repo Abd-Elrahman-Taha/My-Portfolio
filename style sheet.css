@@ -897,9 +897,7 @@ button{
         align-items: center;
         text-align: center;
     }
-    #project-buttons{
-        margin-left: 5px;
-    }
+    
     
     #conatain1{
         order: 1;
@@ -908,9 +906,7 @@ button{
         order: 2;
         
     }
-    #para2 p,#para3 p{
-        margin-left: 30px;
-    }
+    
     #line9,#line10{
         display: none;
     }

@@ -52,3 +52,29 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(col);
   });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const icons = document.querySelectorAll("#social-icons i");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        el.classList.add("animate__animated", el.dataset.animation);
+        el.style.opacity = 1;
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  icons.forEach((icon, index) => {
+   
+    icon.dataset.animation = index % 2 === 0 
+      ? "animate__fadeInLeft" 
+      : "animate__fadeInRight";
+
+    observer.observe(icon);
+  });
+});
