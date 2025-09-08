@@ -234,7 +234,9 @@
 #pro-img img:hover{
     transform: scale(1.025);
 }
-
+#main a{
+    text-decoration: none;
+}
 button{
     width: 200px;
     height: 75px;
@@ -929,5 +931,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
   }
 }
