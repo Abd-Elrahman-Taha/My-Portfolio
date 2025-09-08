@@ -637,7 +637,21 @@ button{
         font-size: 20px;
         width: 90%;
     }
-
+    #line9,#line10{
+        height: 2px;
+        width: 38%;
+        background-color: crimson;
+    }
+    #line9{
+        position: relative;
+        top: 45px;
+        left: 25px;
+    }
+    #line10{
+        position: relative;
+        top: -80px;
+        left: 900px;
+    }
 @media (max-width: 768px) {
     *{
         max-width: 100%;
@@ -773,7 +787,7 @@ button{
 
     #list li {
         margin: 10px;
-        font-size: 16px;
+        font-size: 10px;
         padding: 5px;
         margin-left: 0;
     }
@@ -855,5 +869,12 @@ button{
     #para2 p{
         text-align: center;
     }
-
+    #third-section{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #line9,#line10{
+        display: none;
+    }
 }
