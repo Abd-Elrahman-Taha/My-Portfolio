@@ -604,7 +604,7 @@ button{
 }
 #btn4:hover{
       background-color: transparent;
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: white;
     border: 2px solid crimson;
 }
@@ -619,7 +619,7 @@ button{
 }
 #btn5:hover{
       background-color: crimson;
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: white;
     border: 2px solid crimson;
 }
@@ -630,14 +630,16 @@ button{
 }
 
 #para2 h2,#para3 h2{
-     font-family: 'Roboto', sans-serif;
+     
     font-size: 40px;
     color: crimson;
+    font-family: 'Orbitron', sans-serif;
     }
     #para2 p,#para3 p{
         color: white;
         font-size: 20px;
         width: 90%;
+        font-family: 'Roboto', sans-serif;
     }
     
     #line9,#line10{
