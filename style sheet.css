@@ -898,18 +898,18 @@ button{
         text-align: center;
     }
     #project-buttons{
-        margin-left: 7.5px;
+        margin-left: 5px;
     }
-    #para2{
-        margin-left: 40px;
-    }
+    
     #conatain1{
         order: 1;
     }
     #para3{
-        margin-left: 40px;
         order: 2;
         
+    }
+    #para2 p,#para3 p{
+        margin-left: 30px;
     }
     #line9,#line10{
         display: none;
