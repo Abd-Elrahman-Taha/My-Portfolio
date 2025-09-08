@@ -627,16 +627,17 @@ button{
     font-size: 20px;
 }
 
-#para2 h2{
+#para2 h2,#para3 h2{
      font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: crimson;
     }
-    #para2 p{
+    #para2 p,#para3 p{
         color: white;
         font-size: 20px;
         width: 90%;
     }
+    
     #line9,#line10{
         height: 2px;
         width: 38%;
@@ -872,9 +873,17 @@ button{
         text-align: center;
     }
     #third-section{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    #conatain1{
+        order: 1;
+    }
+    #para3{
+        order: 2;
     }
     #line9,#line10{
         display: none;
