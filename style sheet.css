@@ -48,9 +48,7 @@
 .navbar-toggler-icon {
   filter: invert(1);
 }
-#nav1 a{
-    text-decoration: none;
-}
+
 
     .navbar-nav a:hover , #nav-brand:hover{
         transform: scale(1.1);
@@ -660,7 +658,7 @@ button{
 
     #forth-section {
   background-color: #0d0820;
-  
+ 
   
   
 }
@@ -901,7 +899,7 @@ button{
     }
     #btn5{
         
-        margin-left: 15px;
+        margin-left: 25px;
     }
     
     #conatain1{
@@ -911,9 +909,16 @@ button{
         order: 2;
         
     }
+    #para2 ,#para3{
+        margin-top: 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    } 
     #para2 p,#para3 p{
-        width: 100%;
-        max-width: 100%;
+    
+      margin-left: 25px;
+
     }
     
     #line9,#line10{
