@@ -736,6 +736,7 @@ top: -40px;
 
 @media (max-width: 768px) {
     *{
+        width: 100%;
         max-width: 100%;
     }
  
@@ -1024,13 +1025,14 @@ top: -40px;
 }
 #para5 p{
     text-align: center;
-
+margin-left: 15px;
 }
 #edu1 h1{
     max-width: 100%;
     margin-right: 15px;
 }
   #education-img{
+    margin-left: 15px;
     order: 1;
   }
   #line11,#line12{
