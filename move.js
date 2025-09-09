@@ -78,3 +78,39 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(icon);
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const allCols = document.querySelectorAll("section#education .col-lg-6, section#education .col-md-6, section#education .col-sm-12");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        el.classList.add("animate__animated", el.dataset.animation);
+        el.style.opacity = 1;
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  // الأعمدة (نص + صورة)
+  allCols.forEach(col => {
+    const parentRow = col.parentElement; 
+    const isLeft = Array.from(parentRow.children).indexOf(col) === 0;
+
+    col.dataset.animation = isLeft ? "animate__fadeInLeft" : "animate__fadeInRight";
+    col.style.opacity = 0;
+    observer.observe(col);
+  });
+
+  // العنوان والخطين
+  const titleElements = document.querySelectorAll("#education h1, #education #line11, #education #line12");
+  titleElements.forEach(el => {
+    el.dataset.animation = "animate__fadeInDown";
+    el.style.opacity = 0;
+    observer.observe(el);
+  });
+});
+
+
+

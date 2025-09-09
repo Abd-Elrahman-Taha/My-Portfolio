@@ -8,7 +8,10 @@
   max-height: 100%;
   
 }
-
+#head nav{
+    width: 100%;
+    max-width: 100%;
+}
    #nav-brand{
         font-size: 25px;
         font-weight: bold;
@@ -49,7 +52,12 @@
   filter: invert(1);
 }
 
-
+#navbarNav1{
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    right: 25px;
+}
     .navbar-nav a:hover , #nav-brand:hover{
         transform: scale(1.1);
         color: rgba(220, 20, 60, 0.895);}
@@ -65,9 +73,8 @@
         width: 2px;
         height: 40px;
         background-color: crimson;
-        margin-right: 20px;
-        float: right;
-        top: 15px;    
+        
+       
         box-shadow: 0 0 20px crimson;
     }
     
@@ -77,6 +84,8 @@
     section{
         background-color: #0d0820;
         height: auto;
+        
+        
       }
     
     #main{
@@ -571,7 +580,7 @@ button{
 #third-section{
     height: 100%;
     position: relative;
-    top: -50px;
+    top: -18px;
 }
 #third-section h1{
     text-align: center;
@@ -676,6 +685,53 @@ button{
   color: crimson;
   transform: scale(1.2);
   text-shadow: 0 0 20px crimson;
+}
+#education{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#education h1{
+    font-family: 'Orbitron', sans-serif;
+    color: crimson;
+    font-size: 60px;
+    text-align: center;
+}
+#education p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+}
+#education-img{
+      border: 2px solid crimson;
+    box-shadow: 0 0 20px crimson;
+    border-radius: 10px;
+    height: 80% ;
+}
+#education-img img{
+     border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+#row3{
+    margin-top: 30px;
+}
+#line11,#line12{
+      height: 2px;
+        width: 38%;
+        background-color: crimson;
+}
+#line11{
+    position: relative;
+    top: 40px;
+    
+}
+#line12{
+position: relative;
+left: 920px;
+top: -40px;
 }
 
 @media (max-width: 768px) {
@@ -939,5 +995,20 @@ button{
     width: 30%;   /* كل أيقونة تاخد تلت العرض تقريبا */
     margin: 15px 0;
     margin-left: 5px;
+  }
+  #navbarNav1{
+    position: relative;
+    right: 0px;
+    
+  }
+  #para5{
+     margin-top: 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    order: 2;
+}
+  #education-img{
+    order: 1;
   }
 }
