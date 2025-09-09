@@ -690,6 +690,8 @@ button{
     justify-content: center;
     align-items: center;
     height: 100%;
+    max-width: 100%;
+    width: 100%;
 }
 #education h1{
     font-family: 'Orbitron', sans-serif;
@@ -735,10 +737,7 @@ top: -40px;
 }
 
 @media (max-width: 768px) {
-    *{
-        width: 100%;
-        max-width: 100%;
-    }
+    
  
 
     html,body{
