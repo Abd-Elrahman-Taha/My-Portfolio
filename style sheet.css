@@ -326,7 +326,7 @@ button{
     
 }
 #list li{
-    display: inline-block;
+    
     margin-right: 10px;
     padding: 5px;
     font-size: 20px;
@@ -775,6 +775,7 @@ top: -40px;
   .navbar-toggler {
   margin-right: 0; /* يمنع خروجه برا الشاشة */
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .navbar-toggler-icon {
   background-size: 100% 100%; /* عشان ما يتمددش */
@@ -872,19 +873,26 @@ top: -40px;
         display: none; /* الخط اللي في النص بيبوظ في الموبايل */
     }
     #nav{
+        max-width: 100%;
+        width: 100%;
         height: max-content;
     }
     #list {
-        flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        list-style-type: none;
         position: static;
         margin-top: 10px;
+        margin-left: 15px;
         padding: 0;
         height: max-content;
         text-align: center;
+        
     }
 
     #list li {
+        
         margin: 10px;
         font-size: 10px;
         padding: 5px;
