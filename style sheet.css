@@ -735,9 +735,12 @@ top: -40px;
 
 @media (max-width: 768px) {
    
- 
+ *{
+    border: 1px solid red;
+ }
 
     html,body{
+        width: 100%;
     max-width: 100%;
    }
 
@@ -964,7 +967,7 @@ top: -40px;
     }
     #btn5{
         
-        margin-left: 25px;
+        margin-left: 20px;
     }
     
     #conatain1{
