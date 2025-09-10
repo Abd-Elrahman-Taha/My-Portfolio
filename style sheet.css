@@ -875,6 +875,8 @@ top: -40px;
     }
     #nav{
         height: max-content;
+        width: 100%;
+        max-width: 100%;
         
         
     }
@@ -883,11 +885,13 @@ top: -40px;
   flex-wrap: wrap;
   justify-content: center; /* يوسّطهم */
   gap: 15px;
+  
   padding: 0;
   margin: 10px auto;  /* auto يخليها في النص */
   list-style: none;
   width: 100%;  
-  max-width: 100%;      /* ياخد عرض الشاشة */
+  max-width: 100%; 
+  margin-left: 0px;     /* ياخد عرض الشاشة */
 }
 
 #list li {
@@ -1040,13 +1044,13 @@ margin-left: 15px;
 
   #stats .number {
     font-size: 28px;
-    padding-left: 180px;
+    padding-left: 190px;
     
   }
 
   #stats .title {
     font-size: 16px;
-    padding-left: 140px;  
+    padding-left: 150px;  
     width: fit-content;  
     
   }
