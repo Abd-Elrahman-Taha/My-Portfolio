@@ -378,6 +378,8 @@ button{
     justify-self: center;
     align-self: center;
     position: static;
+    margin-right: 150px;
+    margin-top: -100px;
 }
 #left{
     grid-column: 1/2;
@@ -527,33 +529,30 @@ button{
         position: relative;
         top: -60px;
      }
-    #about-me table{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: left;
-    text-align: left;
-    position: relative;
-    top: -90px;
-
-
+  #stats {
+  margin-top: -50px;
+  color: white; /* أو أي لون */
+    margin-left: 160px;
 }
-#about-me table h2{
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+
+#stats .number {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  
+text-align: left;
 }
-#about-me table h3{
-    font-size: 35px;
-    font-weight: normal;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient( to right, white, crimson , crimson);
+
+#stats .title {
+  font-size: 25px;
+  font-weight: bold;
+  width: 150px;
+  margin: 0;
+  text-align: left;
+   background: linear-gradient( to right, white, crimson , crimson);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    
 }
 
 
@@ -760,6 +759,9 @@ top: -40px;
     width: 100%;
     max-width: 100%;
 }
+#navbarNav1{
+    max-width: 100%;
+}
    
     .navbar-nav a{
         transition: all .3s ease;
@@ -873,23 +875,34 @@ top: -40px;
     }
     #nav{
         height: max-content;
+        margin-right: 150;
+        
     }
-    #list {
-        flex-wrap: wrap;
-        justify-content: center;
-        position: static;
-        margin-top: 10px;
-        padding: 0;
-        height: max-content;
-        text-align: center;
-    }
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* يوسّطهم */
+  gap: 15px;
+  padding: 0;
+  margin: 10px auto;  /* auto يخليها في النص */
+  list-style: none;
+  width: 100%;  
+  max-width: 100%;      /* ياخد عرض الشاشة */
+}
 
-    #list li {
-        margin: 10px;
-        font-size: 10px;
-        padding: 5px;
-        margin-left: 0;
-    }
+#list li {
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 0px;
+  
+  color: white;
+  border-radius: 5px;
+  width: 70px;
+  padding: 8px 15px;   /* padding كفاية من غير عرض ثابت */
+}
+
+
 
     #about-me {
     display: flex;
@@ -921,24 +934,6 @@ top: -40px;
     padding: 0 10px;
     width: 100%;
     text-align: center;
-  }
-
-  #about-me table {
-    width: 100%;
-    margin: 20px auto 0;
-    position: static;
-    font-size: 14px;
-    text-align: center;
-    margin-top: -50px;
-  }
-
-  #about-me table h2 {
-    font-size: 24px;
-  }
-
-  #about-me table h3 {
-    font-size: 16px;
-    width: 100px;
   }
 
   #col2 {
@@ -1039,4 +1034,7 @@ margin-left: 15px;
   #line11,#line12{
     display: none;
   }
+    #stats {
+    margin-left: 25px;
+}
 }
