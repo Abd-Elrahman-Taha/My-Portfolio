@@ -751,8 +751,8 @@ top: -40px;
         align-self: center;
 
     }
-    #navbarNav1{
-     margin-left: 10px;
+    #navbarNav1 a{
+     margin-left: 50px;
     
     }
     #head nav{
@@ -875,7 +875,7 @@ top: -40px;
     }
     #nav{
         height: max-content;
-        margin-right: 150;
+        
         
     }
 #list {
@@ -946,16 +946,8 @@ top: -40px;
     align-items: center;
     margin-top: 20px;
   }
-   body {
-    overflow-x: hidden;
-  }
-  #first-section,
-  #second-section,
-  section {
-    height: auto !important;
-    min-height: auto !important;
-    padding: 40px 0;
-  }
+  
+
   #col1{
     display: none;
   }
@@ -1034,7 +1026,26 @@ margin-left: 15px;
   #line11,#line12{
     display: none;
   }
-    #stats {
-    margin-left: 25px;
+   #stats {
+    flex-direction: column; /* يبقوا تحت بعض */
+    gap: 20px;              /* مسافة بينهم */
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
+
+  #stats .number {
+    font-size: 28px;
+    padding-left: 150px;
+    
+  }
+
+  #stats .title {
+    font-size: 16px;
+    padding-left: 110px;  
+    width: fit-content;  
+    
+  }
 }
+
