@@ -914,9 +914,11 @@ top: -40px;
     position: relative;
     margin-top: -100px;
     
+    
   }
 #about-me h1{
     text-align: center;
+    margin-left: 5px;
 }
   #right,
   #left {
@@ -1033,17 +1035,18 @@ margin-left: 15px;
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-top: -100px;
 }
 
   #stats .number {
     font-size: 28px;
-    padding-left: 150px;
+    padding-left: 180px;
     
   }
 
   #stats .title {
     font-size: 16px;
-    padding-left: 110px;  
+    padding-left: 140px;  
     width: fit-content;  
     
   }
