@@ -1031,27 +1031,20 @@ margin-left: 15px;
   }
   #line11,#line12{
     display: none;
-  }
-   #stats {
-    flex-direction: column; /* يبقوا تحت بعض */
-    gap: 20px;              /* مسافة بينهم */
-    margin: 20px auto;
-    align-items: center;
+  }  #stats {
+    margin: 20px auto !important; /* يشيله من الشمال ويحطه في النص */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;    /* يوسّط العناصر أفقياً */
+    justify-content: center; 
     text-align: center;
-    justify-content: center;
-    margin-top: -100px;
-}
-
-  #stats .number {
-    font-size: 28px;
-    padding-left: 190px;
-    
   }
 
+  #stats .number, 
   #stats .title {
-    font-size: 16px;
-    padding-left: 150px;  
-    width: fit-content;  
+    text-align: center;
     
   }
 }
