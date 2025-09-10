@@ -1041,11 +1041,13 @@ margin-left: 15px;
     justify-content: center; 
     text-align: center;
   }
-
   #stats .number, 
   #stats .title {
     text-align: center;
     
+  }
+  .title{
+    width: 25px;
   }
 }
 
