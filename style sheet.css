@@ -1043,9 +1043,9 @@ margin-left: 15px;
     text-align: center;
     
   }
-  .title{
-    width: 25px;
-    font-size: 10px;
+ #stats .title{
+    width: 140px;
+    font-size: 25px;
   }
 }
 
