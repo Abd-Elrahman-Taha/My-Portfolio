@@ -929,6 +929,9 @@ top: -40px;
     position: static;
     
   }
+  #left button{
+    margin-bottom: 50px;
+  }
 
   #para {
     font-size: 16px;
@@ -954,7 +957,7 @@ top: -40px;
   #col1{
     display: none;
   }
- 
+  
     #third-section{
         display: flex;
         flex-direction: column;
@@ -1014,6 +1017,9 @@ top: -40px;
 #para5 p{
     text-align: center;
 margin-left: 15px;
+}
+#education h1{
+  
 }
 #edu1 h1{
     max-width: 100%;
