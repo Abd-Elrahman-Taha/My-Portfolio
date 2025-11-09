@@ -1050,5 +1050,8 @@ margin-left: 15px;
     width: 140px;
     font-size: 25px;
   }
+#line{
+    display: none;
+}
 }
 
