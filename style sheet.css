@@ -351,7 +351,7 @@ button{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     position: relative;
-    top: 50px;
+    top: 100px;
     
 }
 #about-me h1{
@@ -580,6 +580,7 @@ text-align: left;
     height: 100%;
     position: relative;
     top: -18px;
+  
 }
 #third-section h1{
     text-align: center;
@@ -587,7 +588,7 @@ text-align: left;
     font-family: 'Orbitron', sans-serif;
     color: crimson;
     transition: all .3s ease;
-    margin-bottom: 50px;
+    
 }
 
 #project-img{
@@ -668,7 +669,7 @@ text-align: left;
 
     #forth-section {
   background-color: #0d0820;
- 
+        margin-top: -50px;
   
   
 }
