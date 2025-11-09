@@ -586,6 +586,8 @@ text-align: left;
     font-family: 'Orbitron', sans-serif;
     color: crimson;
     transition: all .3s ease;
+    margin-top: 15px;
+    margin-bottom: 50px ;
     
 }
 
@@ -656,7 +658,7 @@ text-align: left;
     }
     #line9{
         position: relative;
-        top: 45px;
+        top: 57px;
         left: 25px;
     }
     #line10{
