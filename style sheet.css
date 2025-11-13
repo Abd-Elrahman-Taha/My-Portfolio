@@ -578,6 +578,7 @@ text-align: left;
     height: 100%;
     position: relative;
     top: -18px;
+   
   
 }
 #third-section h1{
@@ -647,7 +648,7 @@ text-align: left;
     #para2 p,#para3 p{
         color: white;
         font-size: 20px;
-        width: 90%;
+        width: 95%;
         font-family: 'Roboto', sans-serif;
     }
     
