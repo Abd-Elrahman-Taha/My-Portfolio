@@ -40,12 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { threshold: 0.2 });
 
   allCols.forEach(col => {
-    // لو العمود جهة يمين (Bootstrap يديه order تلقائي)
     const parentRow = col.parentElement; 
     const isLeft = Array.from(parentRow.children).indexOf(col) === 0;
 
-    // لو أول عمود → يدخل من الشمال
-    // لو تاني عمود → يدخل من اليمين
     col.dataset.animation = isLeft ? "animate__fadeInLeft" : "animate__fadeInRight";
 
     col.style.opacity = 0;
@@ -93,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }, { threshold: 0.2 });
 
-  // الأعمدة (نص + صورة)
+
   allCols.forEach(col => {
     const parentRow = col.parentElement; 
     const isLeft = Array.from(parentRow.children).indexOf(col) === 0;
@@ -103,7 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(col);
   });
 
-  // العنوان والخطين
   const titleElements = document.querySelectorAll("#education h1, #education #line11, #education #line12");
   titleElements.forEach(el => {
     el.dataset.animation = "animate__fadeInDown";
